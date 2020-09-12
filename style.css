@@ -1,0 +1,31 @@
+.box {
+  display: block;
+  height: 40vh;
+  padding: 10px;
+}
+
+.inner {
+  background-color: bisque;
+  height: 10vh;
+}
+
+.red .inner {
+  background-color:blueviolet;
+  height: 40%;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red#my-box {
+  background-color: aqua;
+}
+
+#my-box {
+  background-color: rgb(255, 23, 243);
+}
